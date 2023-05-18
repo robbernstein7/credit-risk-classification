@@ -18,12 +18,13 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
   ![model 1](https://github.com/robbernstein7/credit-risk-classification/assets/119881903/c2c68e2c-829c-4bc2-b750-cdd14d37162a)
 
-
+The first model was trained on the original data and it give an accuracy of 94.4% in predicting the 2 labels. The model is very good at predicting the healthy loans, with both precision and recall scores of 1.00. The model did not perform as well in predicting the high-risk loans. The precision score for high-risk loans is 0.87, which shows that only 87% of actual high-risk loans were correctly predicted. The recall score for high-risk loans is 0.89, indicating that the model only identified 89% of all high-risk loans in the dataset.
 
 * ML Model 2:
 
   ![model 2](https://github.com/robbernstein7/credit-risk-classification/assets/119881903/0267c5c3-6b1b-49fd-bceb-c58ce7371b17)
 
+The second model was trained on the resampled data and has an accuracy of 99.6% in predicting the 2 labels. The model peforms well at predicting the healthy loans, with both precision and recall scores of 1.00. The precision score for high-risk loans remains at 0.87, but the recall score has improved to 1.00, indicating that the model can now predict all high-risk loans in the dataset.
   
 ## Summary
 
