@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Credit Risk Analysis Report
 
 ## Overview of the Analysis
 In this analysis we used various machine learning techniques to train and evaluate the performance of Logistic Regression Models in identifying loan risk and the creditworthiness of borrowers. The two models we created were trained using different methods, and their performances were compared to determine the superior model. The predictive variables we used in the model are the labels 0 (healthy loan) and 1 (high-risk loan).
