@@ -1,25 +1,25 @@
 # Module 12 Report Template
 
 ## Overview of the Analysis
+In this analysis we used various machine learning techniques to train and evaluate the performance of Logistic Regression Models in identifying loan risk and the creditworthiness of borrowers. The two models we created were trained using different methods, and their performances were compared to determine the superior model. The predictive variables we used in the model are the labels 0 (healthy loan) and 1 (high-risk loan).
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The first step was splitting the dataset into features and labels, and further dividing it into training and testing sets.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The first machine learning model was built by instantiating a logistic regression model and training with the original training sets (X_train, y_train), fitting it to the training sets, and using it to generate predictions.
+The second machine learning model was created by resampling the original training data using the RandomOverSampler module, instantiating a logistic regression model and fitting the resampled training sets (X_oversample, y_oversample) to the model, and generating predictions.
+
+The performance of each model was evaluated based on the balance accuracy score, the confusion matrix, the precision score, the recall score, and the f1-score in the classification report.
 
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
+* ML Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
 
 
-* Machine Learning Model 2:
+* ML Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
