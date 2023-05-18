@@ -28,8 +28,4 @@ The second model was trained on the resampled data and has an accuracy of 99.6% 
   
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+The analysis appears to shows that Model 2 outperforms Model 1 in predicting high-risk loans and has an overall higher accuracy in predicting both labels. Model 2 achieved a relatively high precision in predicting high-risk loans while also correctly identifying all high-risk loans in the dataset. After analysing the models I would recommend using Model 2 in identifying high-risk loans and overall better accuracy in predicting labels.
