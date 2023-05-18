@@ -15,13 +15,16 @@ The performance of each model was evaluated based on the balance accuracy score,
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * ML Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+
+  ![model 1](https://github.com/robbernstein7/credit-risk-classification/assets/119881903/c2c68e2c-829c-4bc2-b750-cdd14d37162a)
 
 
 
 * ML Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
+  ![model 2](https://github.com/robbernstein7/credit-risk-classification/assets/119881903/0267c5c3-6b1b-49fd-bceb-c58ce7371b17)
+
+  
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
